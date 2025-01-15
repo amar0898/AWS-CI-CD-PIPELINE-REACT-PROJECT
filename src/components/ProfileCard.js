@@ -8,7 +8,7 @@ const ProfileCard = () => {
     profilePicture: "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
     location: "Toronto, Canada",
     about: "Passionate about building scalable java applications and learning new technologies. Skilled in React, Spring Boot, AWS, MySQL and DevOps.",
-    skills: ["React", "JavaScript", "Spring Boot", "AWS", "DevOps", "Terraform", "MySQL", "Docker"],
+    skills: ["React", "JavaScript", "Spring Boot", "AWS", "DevOps", "Terraform", "MySQL", "Docker", "Kubernetes"],
     linkedin: "https://www.linkedin.com/in/amar-deep-234612168/",
   };
 
