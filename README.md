@@ -1,7 +1,7 @@
-# React Propel: Automated AWS CI/CD Deployment
+# 🚀 React Propel: Automated AWS CI/CD Deployment
 Using a 𝗗𝗼𝗰𝗸𝗲𝗿 𝗶𝗺𝗮𝗴𝗲, I recently built an AWS 𝗖𝗜/𝗖𝗗 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 for deploying my 𝗥𝗲𝗮𝗰𝘁 𝘀𝘁𝗮𝘁𝗶𝗰 𝘄𝗲𝗯𝘀𝗶𝘁𝗲 on an 𝗔𝗪𝗦 𝗘𝗖𝟮 𝗶𝗻𝘀𝘁𝗮𝗻𝗰𝗲. Below you can find the hosted website and my GitHub repository link. Here's the step-by-step process I followed:
 
-### 1️⃣ 𝗔𝗪𝗦 𝗖𝗼𝗱𝗲𝗕𝘂𝗶𝗹𝗱 𝗦𝗲𝘁𝘂𝗽: Created a project with 𝗚𝗶𝘁𝗛𝘂𝗯 as the source, using a 𝗯𝘂𝗶𝗹𝗱𝘀𝗽𝗲𝗰.𝘆𝗮𝗺𝗹 file for build instructions and 𝗗𝗼𝗰𝗸𝗲𝗿𝗳𝗶𝗹𝗲 to build the Docker image.
+### 1️⃣ 𝗔𝗪𝗦 𝗖𝗼𝗱𝗲𝗕𝘂𝗶𝗹𝗱 𝗦𝗲𝘁𝘂𝗽:<br> Created a project with 𝗚𝗶𝘁𝗛𝘂𝗯 as the source, using a 𝗯𝘂𝗶𝗹𝗱𝘀𝗽𝗲𝗰.𝘆𝗮𝗺𝗹 file for build instructions and 𝗗𝗼𝗰𝗸𝗲𝗿𝗳𝗶𝗹𝗲 to build the Docker image.
 
 ### 2️⃣ 𝗗𝗼𝗰𝗸𝗲𝗿 𝗖𝗿𝗲𝗱𝗲𝗻𝘁𝗶𝗮𝗹𝘀 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆: Stored Docker credentials in 𝗔𝗪𝗦 𝗦𝘆𝘀𝘁𝗲𝗺𝘀 𝗠𝗮𝗻𝗮𝗴𝗲𝗿.
 
