@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# React Propel: Automated AWS CI/CD Deployment
+Using a 𝗗𝗼𝗰𝗸𝗲𝗿 𝗶𝗺𝗮𝗴𝗲, I recently built an AWS 𝗖𝗜/𝗖𝗗 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 for deploying my 𝗥𝗲𝗮𝗰𝘁 𝘀𝘁𝗮𝘁𝗶𝗰 𝘄𝗲𝗯𝘀𝗶𝘁𝗲 on an 𝗔𝗪𝗦 𝗘𝗖𝟮 𝗶𝗻𝘀𝘁𝗮𝗻𝗰𝗲. Below you can find the hosted website and my GitHub repository link. Here's the step-by-step process I followed:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 1️⃣ 𝗔𝗪𝗦 𝗖𝗼𝗱𝗲𝗕𝘂𝗶𝗹𝗱 𝗦𝗲𝘁𝘂𝗽: Created a project with 𝗚𝗶𝘁𝗛𝘂𝗯 as the source, using a 𝗯𝘂𝗶𝗹𝗱𝘀𝗽𝗲𝗰.𝘆𝗮𝗺𝗹 file for build instructions and 𝗗𝗼𝗰𝗸𝗲𝗿𝗳𝗶𝗹𝗲 to build the Docker image.
 
-## Available Scripts
+### 2️⃣ 𝗗𝗼𝗰𝗸𝗲𝗿 𝗖𝗿𝗲𝗱𝗲𝗻𝘁𝗶𝗮𝗹𝘀 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆: Stored Docker credentials in 𝗔𝗪𝗦 𝗦𝘆𝘀𝘁𝗲𝗺𝘀 𝗠𝗮𝗻𝗮𝗴𝗲𝗿.
 
-In the project directory, you can run:
+### 3️⃣ 𝗔𝗪𝗦 𝗖𝗼𝗱𝗲𝗣𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝗦𝗲𝘁𝘂𝗽: Set up a CodePipeline with 𝗖𝗼𝗱𝗲𝗕𝘂𝗶𝗹𝗱 as the build stage after the source stage.
 
-### `npm start`
+### 4️⃣ 𝗘𝗖𝟮 𝗜𝗻𝘀𝘁𝗮𝗻𝗰𝗲 𝗣𝗿𝗼𝘃𝗶𝘀𝗶𝗼𝗻𝗶𝗻𝗴: Created an EC2 instance to host the website and installed the 𝗖𝗼𝗱𝗲𝗗𝗲𝗽𝗹𝗼𝘆 𝗮𝗴𝗲𝗻𝘁.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 5️⃣ 𝗖𝗼𝗱𝗲𝗗𝗲𝗽𝗹𝗼𝘆 𝗦𝗲𝘁𝘂𝗽: Created a CodeDeploy project to deploy the Docker image and container to the EC2 instance with an 𝗮𝗽𝗽𝘀𝗽𝗲𝗰.𝘆𝗺𝗹 file.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 6️⃣ 𝗣𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗶𝗼𝗻: Added 𝗖𝗼𝗱𝗲𝗗𝗲𝗽𝗹𝗼𝘆 as the deploy stage in 𝗖𝗼𝗱𝗲𝗣𝗶𝗽𝗲𝗹𝗶𝗻𝗲, making the website live on EC2 once all stages are complete.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 🚧 𝗖𝗵𝗮𝗹𝗹𝗲𝗻𝗴𝗲𝘀 𝗙𝗮𝗰𝗲𝗱 🚧
+Building the AWS CI/CD pipeline and setting up the services together wasn’t easy. There were many challenges, including Docker image issues, but I learned a lot through debugging. I’m excited to share insights and tips in my next post to help others facing similar challenges!
